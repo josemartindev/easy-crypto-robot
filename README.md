@@ -12,4 +12,4 @@ IMPORTANT: Without an API key, requests are limited to 20 requests per minute an
 
 5. Create as many http requests for many other crypto coins.
 
-6. node crypto.js%  
+6. node crypto.js
