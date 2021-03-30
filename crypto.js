@@ -7,11 +7,8 @@ const getData = async () => {
     console.log("Crypto Robot:".underline.yellow, "🕒 " + new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds());
     await axios.get(url_BTC, { headers: { "x-messari-api-key": "" }
     }).then((res) => {
-        let btc = res.data.data.market_data.price_usd * eur;
-        console.log("BTC: ".green, btc.toString().substr(0, 8).magenta);
-    }).catch((err) => {
-        console.log("ERROR: ", err);
-    })
+        console.log("BTC: ".green, (res.data.data.market_data.price_usd * eur).toString().substr(0, 8).magenta);
+    }).catch((err) => console.log("ERROR: ", err) )
 }
 
 getData();
