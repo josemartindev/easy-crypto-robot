@@ -1,4 +1,4 @@
-Easy Crypto Price Bot
+Easy Crypto Price Bot in 7 lines of code
 
 IMPORTANT: Without an API key, requests are limited to 20 requests per minute and 1000 requests per day. Users that create an account will have slightly higher limits of 30 requests per minute and 2000 requests per day: https://messari.io/
 
